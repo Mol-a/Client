@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="433.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddUpdateFlight">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assest/second_background.jpg" />
+         </image>
+      </ImageView>
+      <DatePicker fx:id="dpDeparture" layoutX="16.0" layoutY="60.0" />
+      <Label layoutX="24.0" layoutY="37.0" text="Время отправления">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="18.0" layoutY="91.0" text="Статус">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="txtfldStatus" layoutX="18.0" layoutY="112.0" />
+      <Label layoutX="222.0" layoutY="37.0" text="Место назначения:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="txtfldArrival" layoutX="214.0" layoutY="60.0" />
+      <TextField fx:id="txtfldDeparture" layoutX="376.0" layoutY="60.0" />
+      <Label layoutX="393.0" layoutY="37.0" text="Место отправки:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="393.0" layoutY="91.0" text="Время в пути:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="txtfldFlightTime" layoutX="376.0" layoutY="112.0" />
+      <Label layoutX="402.0" layoutY="142.0" text="Дистанция:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="txtfldDistance" layoutX="376.0" layoutY="161.0" />
+      <Label layoutX="537.0" layoutY="37.0" text="Название">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="77.0" layoutY="13.0" text="Рейс">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="338.0" layoutY="15.0" text="Маршрут">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Label>
+      <Label layoutX="582.0" layoutY="13.0" text="Самолёт">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="txtfldName" layoutX="537.0" layoutY="60.0" />
+      <Label layoutX="537.0" layoutY="91.0" text="Тип:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="txtfldType" layoutX="537.0" layoutY="112.0" />
+      <Label layoutX="537.0" layoutY="142.0" text="Кол-во сидений:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="534.0" layoutY="192.0" text="Кол-во бизнес мест:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="txtfldPlace" layoutX="537.0" layoutY="161.0" />
+      <TextField fx:id="txtfldBusPlace" layoutX="537.0" layoutY="215.0" />
+      <Button layoutX="575.0" layoutY="256.0" mnemonicParsing="false" onAction="#OnSave" text="Сохранить" />
+      <Button layoutX="588.0" layoutY="293.0" mnemonicParsing="false" onAction="#OnBack" text="Назад" />
+   </children>
+</AnchorPane>

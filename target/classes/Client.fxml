@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #ff7f36;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientPage">
+   <children>
+      <Pane layoutX="150.0" layoutY="58.0" prefHeight="379.0" prefWidth="370.0" style="-fx-background-color: #FAC889; -fx-background-radius: 15;" />
+      <Pane layoutX="419.0" layoutY="165.0" prefHeight="379.0" prefWidth="370.0" style="-fx-background-color: #E47832; -fx-background-radius: 15;" />
+      <Pane layoutX="678.0" layoutY="289.0" prefHeight="379.0" prefWidth="326.0" style="-fx-background-color: #6F250B; -fx-background-radius: 15;">
+         <children>
+            <Button fx:id="id_add_client" layoutX="129.0" layoutY="264.0" mnemonicParsing="false" onAction="#Pressed_Add_Client" prefHeight="34.0" prefWidth="81.0" style="-fx-background-color: #ff7f36;" text="Добавить" />
+         </children>
+      </Pane>
+      <TextField fx:id="id_surname" layoutX="239.0" layoutY="125.0" promptText="Фамилия" />
+      <TextField fx:id="id_first_name" layoutX="239.0" layoutY="84.0" promptText="Имя" />
+      <TextField fx:id="id_middle_name" layoutX="239.0" layoutY="166.0" promptText="Отчество" />
+      <TextField fx:id="id_pass_series" layoutX="480.0" layoutY="200.0" promptText="Серия паспорта" />
+      <DatePicker fx:id="id_date_of_birth" layoutX="239.0" layoutY="202.0" promptText="Дата рождения" />
+      <TextField fx:id="id_pass_number" layoutX="480.0" layoutY="235.0" promptText="№ паспорта" />
+      <TextField fx:id="id_authority" layoutX="480.0" layoutY="266.0" promptText="Кем выдан" />
+      <TextField fx:id="id_inden_number" layoutX="480.0" layoutY="328.0" promptText="Идентификационный номер" />
+      <DatePicker fx:id="id_date_of_issue" layoutX="480.0" layoutY="294.0" promptText="Дата выдачи" />
+      <TextField fx:id="id_place_of_birth" layoutX="480.0" layoutY="419.0" promptText="место рождения" />
+      <TextField fx:id="id_adress" layoutX="480.0" layoutY="389.0" promptText="Адрес проживания" />
+      <TextField fx:id="id_home_phone" layoutX="239.0" layoutY="238.0" promptText="домашний телефон" />
+      <TextField fx:id="id_mobile_phone" layoutX="239.0" layoutY="271.0" promptText="мобильный телефон" />
+      <TextField fx:id="id_email" layoutX="239.0" layoutY="308.0" promptText="email" />
+      <TextField fx:id="id_place_of_work" layoutX="714.0" layoutY="319.0" promptText="место работы" />
+      <TextField fx:id="id_position" layoutX="714.0" layoutY="354.0" promptText="должность" />
+      <TextField fx:id="id_address_of_registration" layoutX="480.0" layoutY="361.0" promptText="адрес прописки" />
+      <CheckBox fx:id="id_retiree" layoutX="714.0" layoutY="437.0" mnemonicParsing="false" text="пенсионер" textFill="WHITE" />
+      <TextField fx:id="id_month_income" layoutX="714.0" layoutY="394.0" promptText="ежемесяцный доход" />
+      <CheckBox fx:id="id_liable" layoutX="714.0" layoutY="470.0" mnemonicParsing="false" text="военнообязаный" textFill="WHITE" />
+      <CheckBox fx:id="id_disability" layoutX="714.0" layoutY="502.0" mnemonicParsing="false" text="инвалидность" textFill="WHITE" />
+      <TextField fx:id="id_marital_status" layoutX="480.0" layoutY="451.0" promptText="семейное положение" />
+      <Pane prefHeight="355.0" prefWidth="150.0" style="-fx-background-color: #f06c1f;">
+         <children>
+            <Text layoutX="44.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-Bank">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="id_back" cache="true" layoutY="47.0" mnemonicParsing="false" onAction="#Pressed_btn_Back" prefHeight="27.0" prefWidth="150.0" text="Назад">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button fx:id="id_account_statement" layoutY="74.0" mnemonicParsing="false" onAction="#Pressed_btn_Account_Statement" prefHeight="27.0" prefWidth="150.0" text="Информация по депозитам" />
+            <Button fx:id="id_remmitance" layoutY="101.0" mnemonicParsing="false" onAction="#Pressed_btn_Remmitance" prefHeight="27.0" prefWidth="150.0" text="Перевод средств" />
+            <Button fx:id="id_cards" layoutY="128.0" mnemonicParsing="false" onAction="#Pressed_btn_Cards" prefHeight="27.0" prefWidth="150.0" text="Карточки" />
+            <Button fx:id="id_exit" layoutY="303.0" mnemonicParsing="false" onAction="#Pressed_btn_Exit" prefHeight="27.0" prefWidth="150.0" text="Выход" />
+            <Button fx:id="id_statistics" layoutY="151.0" mnemonicParsing="false" onAction="#Pressed_btn_statistics" prefHeight="27.0" prefWidth="150.0" text="Статистика" />
+            <Button fx:id="id_add_client" layoutY="178.0" mnemonicParsing="false" onAction="#Pressed_btn_Add_Client" prefHeight="27.0" prefWidth="150.0" text="Добавление клиента" />
+            <Button fx:id="id_open_account" layoutY="205.0" mnemonicParsing="false" onAction="#Pressed_btn_Add_Account" prefHeight="27.0" prefWidth="150.0" text="Открыть счет" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

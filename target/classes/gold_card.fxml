@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GoldCardController">
+   <children>
+      <ImageView fitHeight="1058.0" fitWidth="1069.0" layoutY="-116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assest/gold_back.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="71.0" layoutY="29.0" prefHeight="334.0" prefWidth="637.0" style="-fx-background-color: #edcd2b; -fx-background-radius: 15;">
+         <children>
+            <Text layoutX="38.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="100.0" text="Стильные карты уровня Gold" wrappingWidth="186.50390625">
+               <font>
+                  <Font name="Georgia" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="38.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Две международные карты в BYN и USD доступные сразу после оформления в InSync." wrappingWidth="186.50391557469266">
+               <font>
+                  <Font name="Ebrima" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="38.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дополнительная карта в EUR или RUB, бонусная карта на выбор с money-back до 5%." wrappingWidth="168.212890625">
+               <font>
+                  <Font name="Ebrima" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="326.0" fitWidth="329.0" layoutX="319.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assest/мяу/gold-2-min.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="71.0" layoutY="385.0" prefHeight="161.0" prefWidth="300.0" style="-fx-background-color: #edcd2b; -fx-background-radius: 15;">
+         <children>
+            <Text layoutX="30.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="100.0" text="Международные переводы" wrappingWidth="239.50390625">
+               <font>
+                  <Font name="Georgia" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="30.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Скидка 30% на онлайн-переводы с карты на карту по всему миру." wrappingWidth="218.953125">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="408.0" layoutY="385.0" prefHeight="221.0" prefWidth="300.0" style="-fx-background-color: #edcd2b; -fx-background-radius: 15;">
+         <children>
+            <Text layoutX="30.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="100.0" text="Особый накопительный счет" wrappingWidth="239.50390625">
+               <font>
+                  <Font name="Georgia" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="30.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Подключите услугу &quot;Альфа-Копилка&quot;, пополняйте сами или по настроенному правилу, получайте до 2% годовых на счет в BYN." wrappingWidth="218.953125">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="80.0" layoutY="558.0" prefHeight="221.0" prefWidth="300.0" style="-fx-background-color: #edcd2b; -fx-background-radius: 15;">
+         <children>
+            <Text layoutX="30.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="100.0" text="Выгодный курс обмена валют" wrappingWidth="239.50390625">
+               <font>
+                  <Font name="Georgia" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="30.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Курс покупки = курсу продажи при подключении услуги А-курс (до 2000 USD в месяц)." wrappingWidth="218.953125">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="408.0" layoutY="618.0" prefHeight="161.0" prefWidth="575.0" style="-fx-background-color: #edcd2b; -fx-background-radius: 15;">
+         <children>
+            <Text layoutX="118.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="100.0" text="Путешествие за E-ballы" wrappingWidth="338.50390625">
+               <font>
+                  <Font name="Georgia" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="20.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Оплачивайте покупки картой и накапливайте e-ballы.  Покупайте билеты Belavia за e-ballы.Скидка 30% на стоимость услуги и повышенные баллы (1 потраченный евро = 1 балл)." wrappingWidth="385.953125">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Button fx:id="id_back" layoutX="923.0" layoutY="29.0" mnemonicParsing="false" onAction="#Pressed_btn_back" prefHeight="32.0" prefWidth="60.0" style="-fx-background-color: #edcd2b;" text="Button" />
+   </children>
+</AnchorPane>

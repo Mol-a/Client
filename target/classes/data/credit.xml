@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<creditList>
+    <credit>
+        <creditNumber>22165421</creditNumber>
+        <nameId>1</nameId>
+        <nameVal>BYN</nameVal>
+        <storageTime>12</storageTime>
+        <interestRate>14.5</interestRate>
+        <rateType>постоянная</rateType>
+        <amount>1000</amount>
+        <responceName>досрочное погашение</responceName>
+    </credit>
+    <credit>
+        <creditNumber>85146394</creditNumber>
+        <nameId>2</nameId>
+        <nameVal>BYN</nameVal>
+        <storageTime>10</storageTime>
+        <interestRate>12</interestRate>
+        <rateType>постоянная</rateType>
+        <amount>5000</amount>
+        <responceName>плановое погашение</responceName>
+    </credit>
+    <credit>
+        <creditNumber>64954425</creditNumber>
+        <nameId>3</nameId>
+        <nameVal>BYN</nameVal>
+        <storageTime>18</storageTime>
+        <interestRate>13</interestRate>
+        <rateType>переменная</rateType>
+        <amount>30000</amount>
+        <responceName>плановое погашение</responceName>
+    </credit>
+    <credit>
+        <creditNumber>38513944</creditNumber>
+        <nameId>4</nameId>
+        <nameVal>BYN</nameVal>
+        <storageTime>4</storageTime>
+        <interestRate>18.9</interestRate>
+        <rateType>постоянная</rateType>
+        <amount>23800</amount>
+        <responceName>плановое погашение</responceName>
+    </credit>
+    <credit>
+        <creditNumber>56988852</creditNumber>
+        <nameId>5</nameId>
+        <nameVal>BYN</nameVal>
+        <storageTime>24</storageTime>
+        <interestRate>14.5</interestRate>
+        <rateType>поеременная</rateType>
+        <amount>2000</amount>
+        <responceName>досрочное погашение</responceName>
+    </credit>
+    <credit>
+        <creditNumber>11665211</creditNumber>
+        <nameId>6</nameId>
+        <nameVal>BYN</nameVal>
+        <storageTime>6</storageTime>
+        <interestRate>13.5</interestRate>
+        <rateType>постоянная</rateType>
+        <amount>500</amount>
+        <responceName>досрочное погашение</responceName>
+    </credit>
+    <credit>
+        <creditNumber>11665211</creditNumber>
+        <nameId>7</nameId>
+        <nameVal>BYN</nameVal>
+        <storageTime>7</storageTime>
+        <interestRate>13.5</interestRate>
+        <rateType>постоянная</rateType>
+        <amount>65000</amount>
+        <responceName>досрочное погашение</responceName>
+    </credit>
+    <credit>
+        <creditNumber>11665211</creditNumber>
+        <nameId>8</nameId>
+        <nameVal>BYN</nameVal>
+        <storageTime>7</storageTime>
+        <interestRate>13.5</interestRate>
+        <rateType>постоянная</rateType>
+        <amount>12350</amount>
+        <responceName>досрочное погашение</responceName>
+    </credit>
+</creditList>
